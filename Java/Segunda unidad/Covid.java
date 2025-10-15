@@ -27,6 +27,7 @@ public class Covid {
     //dolor o presion persistente en el pecho
     //piel fria o húmeda, o pálida o azulada
     //pérdida del habla o de a movilidad
+    //complementar si tiene alergias
 
     public static void CLS() {
         //CLS todo chafón
@@ -215,9 +216,37 @@ public class Covid {
         return sumatorio;
     }
 
+    public static int Alergia(int sumatorio) {
+        System.out.println("Ha sentido usted: Picazón en la nariz, en los ojos, en la boca o en el oído interno?");
+        op = scanner.nextLine();
+        if (op.equals("s") || op.equals("S")) {
+            sumatorio = sumatorio + 1;
+        }
+
+        System.out.println("Ha sentido usted: Estornudos frecuentes?");
+        op = scanner.nextLine();
+        if (op.equals("s") || op.equals("S")) {
+            sumatorio = sumatorio + 1;
+        }
+
+        System.out.println("Ha sentido usted: Congestión o goteo nasal?");
+        op = scanner.nextLine();
+        if (op.equals("s") || op.equals("S")) {
+            sumatorio = sumatorio + 1;
+        }
+
+        System.out.println("Ha sentido usted: Conjuntivitis (ojos rojos o irritados)?");
+        op = scanner.nextLine();
+        if (op.equals("s") || op.equals("S")) {
+            sumatorio = sumatorio + 1;
+        }
+
+        return sumatorio;
+    }
+
     public static void main(String[] args) {
         //variables
-        int contador = 0, sumatorio = 0, detectados = 0, detectadosin = 0, detectadosgr = 0;
+        int contador = 0, sumatorio = 0, detectados = 0, detectadosin = 0, detectadosgr = 0, detectadosaler = 0;
         String nombre;
 
         for (int i = 1; i <= 250; i++) {
@@ -242,6 +271,24 @@ public class Covid {
                     System.out.println("Usted no tiene nada, está sano");
                     System.out.println("Presione enter para continuar");
                     scanner.nextLine();
+                } else if (sumatorio == 1) {
+                    int sumatorioAlergia = 0;
+                    System.out.println("Vamos a verificar si es una alergia:");
+                    System.out.println("");
+                    
+                    sumatorioAlergia = Alergia(sumatorioAlergia);
+                    
+                    if (sumatorioAlergia >= 2) {
+                        System.out.println("Usted tiene una ALERGIA estacional.");
+                        System.out.println("Presione enter para continuar");
+                        scanner.nextLine();
+                        detectadosaler = detectadosaler + 1;
+                    } else {
+                        System.out.println("Parece que usted tiene una gripe común, mantengase en observación.");
+                        System.out.println("Presione enter para continuar");
+                        scanner.nextLine();
+                        detectadosgr = detectadosgr + 1;
+                    }
                 } else {
                     System.out.println("Parece que usted tiene una gripe común, mantengase en observación.");
                     System.out.println("Presione enter para continuar");
@@ -286,10 +333,11 @@ public class Covid {
         CLS();
 
         System.out.println("Pacientes totales: 100");
-        System.out.println("Pacientes sanos: " + (100 - detectados - detectadosin - detectadosgr));
+        System.out.println("Pacientes sanos: " + (100 - detectados - detectadosin - detectadosgr - detectadosaler));
         System.out.println("Pacientes detectados con COVID: " + detectados);
         System.out.println("Pacientes detectados con INFLUENZA: " + detectadosin);
         System.out.println("Pacientes detectados con GRIPE: " + detectadosgr);
+        System.out.println("Pacientes detectados con ALERGIA: " + detectadosaler);
         System.out.println("");
         System.out.println("Presione enter para terminar.");
         scanner.nextLine();
