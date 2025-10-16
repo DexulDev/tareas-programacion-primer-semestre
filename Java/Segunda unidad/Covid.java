@@ -40,19 +40,19 @@ public class Covid {
         System.out.println("Ha sentido usted: fiebre?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: escalofríos?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: dolor de garganta?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         return sumatorio;
@@ -62,109 +62,109 @@ public class Covid {
         System.out.println("Ha sentido usted: Dolor muscular?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Brazos o piernas pesadas?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Fatiga o cansancio inteso?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Secreción nasal intensa o nariz tapada o estornudos?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Dolor de cabeza?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Dolor ocular?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Mareos?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Tos nueva y persistente?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Opresión o dolor en el pecho?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Dificultad respiratoria?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Ronquera?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Entumecimiento u hormigeo?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Pérdida de apetito?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Nauseas?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Vómitos?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Dolor abdominal o diarrea?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Pérdida o cambio del sentido del gusto y/o olfato?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Dificultad para dormir?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         return sumatorio;
@@ -174,43 +174,43 @@ public class Covid {
         System.out.println("Ha sentido usted: Dificultad para respirar especialmente en reposo?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Incapacidad para hablar con frases completas?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Confusión?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Somnolencia o perdida del conocimiento?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Dolor o presion persistente en el pecho?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Piel fria o húmeda, o pálida o azulada?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Pérdida del habla o de a movilidad?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         return sumatorio;
@@ -220,42 +220,85 @@ public class Covid {
         System.out.println("Ha sentido usted: Picazón en la nariz, en los ojos, en la boca o en el oído interno?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Estornudos frecuentes?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Congestión o goteo nasal?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         System.out.println("Ha sentido usted: Conjuntivitis (ojos rojos o irritados)?");
         op = scanner.nextLine();
         if (op.equals("s") || op.equals("S")) {
-            sumatorio = sumatorio + 1;
+            sumatorio++;
         }
 
         return sumatorio;
     }
 
     public static void main(String[] args) {
-        //variables
         int contador = 0, sumatorio = 0, detectados = 0, detectadosin = 0, detectadosgr = 0, detectadosaler = 0;
+        boolean escovid = false;
         String nombre;
+        double porcentajeinfluenza = 0;
+        double porcentajegripe = 0;
+        double porcentajealergia = 0;
+        double porcentajecovid = 0;
+
+        int contadorGripe = 0;
+        int contadorCovid = 0;
+        int contadorInfluenza = 0;
+        int contadorAlergia = 0;
+        double imc = 0;
+        int edad = 0;
+        int peso = 0;
+        String telefono = "";
+        String genero = "";
+        int estatura = 0;
+        int o2 = 0;
 
         for (int i = 1; i <= 250; i++) {
+            escovid = false;
+            porcentajeinfluenza = 0;
+            porcentajegripe = 0;
+            porcentajealergia = 0;
+            porcentajecovid = 0;
+            contadorGripe = 0;
+            contadorCovid = 0;
+            contadorInfluenza = 0;
+            contadorAlergia = 0;
             CLS();
 
             //Inicia la decadencia extrema del código
-            System.out.println("Paciente: " + i);
-            System.out.println("Ingrese su nombre: ");
+                        System.out.println("Paciente: " + i);
+            System.out.println("Ingrese su nombre completo: ");
             nombre = scanner.nextLine();
+            System.out.println("Ingrese su edad: ");
+            edad = scanner.nextInt();
+            scanner.nextLine();
+            System.out.println("Ingrese su peso: ");
+            peso = scanner.nextInt();
+            scanner.nextLine();
+            System.out.println("Ingrese su número telefónico: ");
+            telefono = scanner.nextLine();
+            System.out.println("Ingrese su género: ");
+            genero = scanner.nextLine();
+            System.out.println("Ingrese su estatura en centímetros: ");
+            estatura = scanner.nextInt();
+            scanner.nextLine();
+            System.out.println("Ingrese su nivel de oxigenación: ");
+            o2 = scanner.nextInt();
+            scanner.nextLine();
+            imc = (peso / Math.pow(estatura / 100.0, 2));
+            System.out.println("");
             System.out.println("");
             System.out.println("");
             System.out.println("Hola, " + nombre + ". Favor de contestar Si (s) o No (N) a cada pregunta....");
@@ -263,8 +306,12 @@ public class Covid {
             System.out.println("");
             System.out.println("");
 
-            //Sintomas comunes: fiebre, escalofrios, dolor de garganta,
-            sumatorio = Gripa(sumatorio);
+            contadorGripe = Gripa(sumatorio);
+            sumatorio = contadorGripe;
+            porcentajegripe = (contadorGripe / 3.0) * 100;
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
 
             if (sumatorio != 3) {
                 if (sumatorio == 0) {
@@ -272,58 +319,64 @@ public class Covid {
                     System.out.println("Presione enter para continuar");
                     scanner.nextLine();
                 } else if (sumatorio == 1) {
-                    int sumatorioAlergia = 0;
                     System.out.println("Vamos a verificar si es una alergia:");
                     System.out.println("");
                     
-                    sumatorioAlergia = Alergia(sumatorioAlergia);
+                    contadorAlergia = Alergia(0);
+                    porcentajealergia = (contadorAlergia / 4.0) * 100;
                     
-                    if (sumatorioAlergia >= 2) {
-                        System.out.println("Usted tiene una ALERGIA estacional.");
-                        System.out.println("Presione enter para continuar");
-                        scanner.nextLine();
-                        detectadosaler = detectadosaler + 1;
+                    if (contadorAlergia >= 2) {
+                        detectadosaler++;
                     } else {
-                        System.out.println("Parece que usted tiene una gripe común, mantengase en observación.");
-                        System.out.println("Presione enter para continuar");
-                        scanner.nextLine();
-                        detectadosgr = detectadosgr + 1;
+                        detectadosgr++;
                     }
                 } else {
-                    System.out.println("Parece que usted tiene una gripe común, mantengase en observación.");
-                    System.out.println("Presione enter para continuar");
-                    scanner.nextLine();
-                    detectadosgr = detectadosgr + 1;
+                    detectadosgr++;
                 }
             } else {
-                sumatorio = 0;
-                sumatorio = PosibleCovid(sumatorio);
+                contadorCovid = PosibleCovid(0);
+                porcentajecovid = (contadorCovid / 18.0) * 100;
 
-                if (sumatorio >= ((18.0 / 100) * 85)) {
-                    System.out.println("Usted tiene COVID");
-                    System.out.println("Presione enter para continuar");
-                    scanner.nextLine();
-                    detectados = detectados + 1;
+                if (contadorCovid >= ((18.0 / 100) * 85)) {
+                    escovid = true;
+                    detectados++;
                 } else {
-                    sumatorio = 0;
                     System.out.println("Posiblemente tenga COVID, por favor conteste lo siguiente:");
                     System.out.println("");
 
-                    sumatorio = EsCovid(sumatorio);
+                    contadorInfluenza = EsCovid(0);
+                    porcentajeinfluenza = (contadorInfluenza / 7.0) * 100;
 
-                    if (sumatorio > 1) {
-                        System.out.println("Usted tiene COVID");
-                        System.out.println("Presione enter para continuar");
-                        scanner.nextLine();
-                        detectados = detectados + 1;
+                    if (contadorInfluenza > 1) {
+                        escovid = true;
+                        detectados++;
                     } else {
-                        System.out.println("Usted seguramente tiene INFLUENZA");
-                        System.out.println("Presione enter la para continuar");
-                        scanner.nextLine();
-                        detectadosin = detectadosin + 1;
+                        detectadosin++;
                     }
                 }
             }
+
+            CLS();
+            System.out.println("");
+            System.out.println("                    TEST DE ENFERMEDADES VIRALES");
+            System.out.println("");
+            System.out.println("                    ----------DATOS PERSONALES----------");
+            System.out.println("");
+            System.out.println("                    NOMBRE COMPLETO: " + nombre);
+            System.out.println("                    GENERO: " + genero + "    EDAD: " + edad);
+            System.out.println("                    ESTATURA: " + estatura + " cm    PESO: " + peso + " kg    IMC: " + String.format("%.2f", imc));
+            System.out.println("");
+            System.out.println("                    ----------RESULTADOS DEL TEST----------");
+            System.out.println("");
+            System.out.println("                    NIVEL DE O2: " + o2 + "%");
+            System.out.println("                    COVID: " + String.format("%.2f", porcentajecovid) + "%    " + (escovid ? "POSITIVO" : "NEGATIVO"));
+            System.out.println("                    INFLUENZA: " + String.format("%.2f", porcentajeinfluenza) + "%");
+            System.out.println("                    GRIPE: " + String.format("%.2f", porcentajegripe) + "%");
+            System.out.println("                    ALERGIA: " + String.format("%.2f", porcentajealergia) + "%");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("Presione enter para continuar....");
+            scanner.nextLine();
 
             //Reinicio mi variable sumatoria para otro paciente y actualizo el contador de pacientes
             contador = contador + 1;
